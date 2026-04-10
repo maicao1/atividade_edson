@@ -135,3 +135,31 @@ console.log(somaloop)
 for(let i = 1; i<=10; i++){
     console.log("3 X "+i+"="+3*i);
 }
+
+////////////////////////////////////////////////
+
+//17. conte quantos numeros sao maiores que 5
+
+
+let lista = [2,6,8,1,3];
+let cont =0;
+
+for(let i=0; i<lista.length; i++){
+    if(lista[i]>5)cont++;
+   
+}
+console.log(cont)
+//////////////////////////////
+
+let palavra = "MVETJ"
+
+for(let i=0; i<palavra.length;i++){
+    console.log
+}
+
+///19. pare um loop quando encontrar o numero 7 de 0 a 10
+
+for(i=0;i<=10; i++){
+    if(i === 8)break;
+    console.log(i);
+}

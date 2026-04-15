@@ -261,3 +261,46 @@ function notficacao(){
 /////////////////////////////////////
 
  //28. crie um array com 5 frutas exiba a primeira fruta
+
+
+ let fruta = [
+    "maça", "manga", "uva", "banana", "laranja"
+  ]
+
+  console.log(fruta[[0]])
+
+
+  ////////////////////////////////////////////////
+
+//29. adicione o numero 50 no final do array[10,20,30,40]
+
+let arrayy = [10,20,30,40]
+arrayy.push(50)
+console.log(arrayy)
+
+  ////////////////////////////////////////////////
+
+// 30 Remova o último elemento do array [1, 2, 3, 4, 5]
+let array = [1, 2, 3, 4, 5]
+array.pop(5)
+console.log(array)
+
+  ////////////////////////////////////////////////
+
+// 31  Exiba quantos elementos tem o array [5, 10, 15, 20]
+
+
+let arrayy1 = [5, 10, 15, 20]
+
+console.log(`o array tem ${arrayy1.length} elemento`)
+
+////////////////////////////////////////////////
+
+// 32  Some todos os números do array [2, 4, 6, 8]
+
+let array4 = [2,4,6,8]
+let somar = 0;
+for(let i=0; <array4.length; i++);{
+
+}
+

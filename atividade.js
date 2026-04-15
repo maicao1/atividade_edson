@@ -161,5 +161,103 @@ for(let i=0; i<palavra.length;i++){
 
 for(i=0;i<=10; i++){
     if(i === 8)break;
-    console.log(i);
+    console.log(i); 
 }
+
+/////////////////////////////////////////////////////////
+
+/20 crie uma funçao que exibe uma mensagem.
+
+function notficacao(){
+   console.log("tu e gay");
+}
+notficacao()
+
+/////////////////////////////////////////////////
+
+// 21. crie uma funçao que multiplica 2 numero
+
+function  multiplica(a,b){
+    return a *b;
+
+
+}
+console.log(multiplica(2,3));
+
+//22 crie uma funçao pye verifica se e  par ou impar.
+
+function verificar(num){
+    return  num  % 2 ===0 ? "par": "impar";
+
+
+}
+console.log(verificar(11));
+
+//23 crie uma funçao que retorne o dobro
+
+function  dobro(n){
+    return n*2;
+
+
+}
+console.log(dobro(5));
+
+///////////////////////
+
+//24 crie uma funçao que some elementos de um array.
+
+function somaArray(arr){
+    total=0;
+    for(let i=0; i<arr.length;i++){
+        total +=arr[i];
+    }
+       
+    return total;
+
+}
+ console.log(somaArray([2,5,6,67]));
+
+////////////////////////////////////////////////
+
+//25.  verifique se o numero 15 é positivo e exiba uma mensagem
+let numero = 15
+
+if(numero >0){
+    console.log(`${numero} é positivo`)
+}
+
+//////////////////////////
+
+//26 verifique se uma pessoa de 17 é maior de idade
+
+let pessoa = 17
+
+if(pessoa == 18){
+    console.log("pessoa maior de idadae")
+}else{
+    console.log("pessoa nao é maior de idade")
+
+}
+
+///////////////////////
+
+//27 crie um array com os numeros 10,20,30,40 e exibba todos
+
+function notficacao(){
+    console.log("tu e gay");
+ }
+ notficacao()
+
+/////////////////////////
+ 
+ // crie uma funçao que multiplica 2 numero
+ 
+ function  multiplica(a,b){
+     return a *b;
+ 
+ }
+ console.log(multiplica(2,3));
+
+/////////////////////////////////////
+
+ //28. crie um array com 5 frutas exiba a primeira fruta

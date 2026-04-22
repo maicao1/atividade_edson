@@ -315,3 +315,36 @@ for(let i = 0 ;i<Array5.length; i++ ){
 }
 console.log(multiplicar)
 
+// 34 Verifique se a fruta "laranja" existe no array ["maçã", "banana", "uva"]
+
+let frutas1 = ["maça", "banana", "uva"];
+let procura = "laranja";
+let acho = false;
+for (let i = 0; i<frutas1.length;i++){
+    if(frutas1[i]==procura){
+        acho = true
+    }
+}
+if(acho){
+    console.log(`${procura} foi encontrada`)
+}
+else{
+    console.log(`${procura} nao encontrada`)
+}
+
+//35  Exiba um por um os elementos do array ["azul", "verde", "amarelo"]
+
+let cores = [
+    "azul", "verde", "amarelo"
+]
+for(let i=0; i<cores.length; i++){
+    console.log(cores)
+}
+
+//36 Exiba o último elemento do array [100, 200, 300, 400, 500]
+
+let numerosarray = [
+    100,200,300,400,500
+]
+let ultimoindien = numerosarray -1;
+console.log(`o ultimo Elemento é: ${numerosarray[ultimoindien]}`)

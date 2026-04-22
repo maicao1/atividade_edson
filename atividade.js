@@ -301,6 +301,7 @@ console.log(`o array tem ${arrayy1.length} elemento`)
 let array4 = [2,4,6,8]
 let somar = 0;
 for(let i=0; <array4.length; i++);{
+    array4 = soma + array4[i];
 
 }
 

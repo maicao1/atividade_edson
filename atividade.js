@@ -305,3 +305,13 @@ for(let i=0; <array4.length; i++);{
 
 }
 
+// 33. multiplique cada elemento do array [1,2,3,4] por 2
+
+Array5 = [1,2,3,4]
+let multiplicar=[]
+
+for(let i = 0 ;i<Array5.length; i++ ){
+    multiplicar.push(Array5[i]*2)
+}
+console.log(multiplicar)
+

@@ -348,3 +348,47 @@ let numerosarray = [
 ]
 let ultimoindien = numerosarray -1;
 console.log(`o ultimo Elemento é: ${numerosarray[ultimoindien]}`)
+
+// 36: Altere o elemento da linha 0, coluna 1 da matriz [[1,2],[3,4]] para 10
+
+let matriz = [
+    [1,2],
+    [3,4]
+]
+console.log("antes",matriz)
+matriz[0] [1] = 10
+console.log[("depois",matriz)]
+
+// 37 Exiba apenas a primeira linha da matriz [[10,20],[30,40],[50,60]]
+
+let matrizlinhas = [
+    [10,20],
+    [30,40],
+    [50,60]
+]
+console.log("primeira linha", matrizlinhas[0])
+
+// 38 Exiba apenas os elementos da primeira coluna da matriz [[1,2],[3,4],[5,6]]
+
+matrizz = [
+    [1,2],[3,4],[5,6]
+]
+console.log("primeira coluna")
+for (let i =0; i<matrizz.lenght; i++){
+    console.log(matriz[i][0])
+}
+// 39 Multiplique todos os elementos da matriz [[1,2],[3,4]] por 2
+
+matrizm = [
+    [1,2],[3,4]
+]
+matriz_resultado = []
+for ( let i = 0; i<matrizm.lenght; i++){
+matriz_resultado[i] = []
+}
+for (let j = 0; j<matrizm[i].lenght; i++){
+    matriz_resultado[i] [j] = matrizm [i] [j] *2
+}
+
+console.log("original", matrizm)
+console.log("multiplicada", matriz_resultado)
